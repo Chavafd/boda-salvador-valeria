@@ -3,7 +3,6 @@
 import { useEffect, useState } from 'react'
 import LoadingScreen from '@/components/LoadingScreen'
 import Hero from '@/components/Hero'
-import OurStory from '@/components/OurStory'
 import Venue from '@/components/Venue'
 import Timeline from '@/components/Timeline'
 import GiftRegistry from '@/components/GiftRegistry'
@@ -32,7 +31,6 @@ export default function Home() {
       <ScrollIndicator />
       <main className="relative">
         <Hero />
-        <OurStory />
         <Venue />
         <Timeline />
         <GiftRegistry />

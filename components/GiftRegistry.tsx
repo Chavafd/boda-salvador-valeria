@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { FaGift, FaExternalLinkAlt } from 'react-icons/fa'
+import { FaGift, FaExternalLinkAlt, FaAmazon } from 'react-icons/fa'
 
 export default function GiftRegistry() {
   const [ref, inView] = useInView({
@@ -28,14 +28,35 @@ export default function GiftRegistry() {
             hemos preparado algunas opciones
           </p>
 
-          <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+            {/* Amazon Registry Card */}
+            <motion.a
+              href="https://www.amazon.com.mx/wedding/registry/1J9WHJXEYXM9E"
+              target="_blank"
+              rel="noopener noreferrer"
+              initial={{ opacity: 0, y: 20 }}
+              animate={inView ? { opacity: 1, y: 0 } : {}}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              whileHover={{ scale: 1.05 }}
+              className="glass-morphism p-8 rounded-lg backdrop-blur-sm bg-white/80 shadow-lg cursor-pointer group block"
+            >
+              <FaAmazon className="text-4xl text-wedding-black mx-auto mb-4" />
+              <h3 className="font-playfair text-2xl mb-2">Amazon</h3>
+              <p className="text-wedding-gray text-sm mb-4">Mesa de regalos #1J9WHJXEYXM9E</p>
+              <div className="flex items-center justify-center text-wedding-black group-hover:text-gray-600 transition-colors">
+                <span className="mr-2 text-sm">Ver mesa</span>
+                <FaExternalLinkAlt className="text-xs" />
+              </div>
+            </motion.a>
+
+            {/* Liverpool Registry Card */}
             <motion.a
               href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51750080"
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.6, delay: 0.2 }}
+              transition={{ duration: 0.6, delay: 0.3 }}
               whileHover={{ scale: 1.05 }}
               className="glass-morphism p-8 rounded-lg backdrop-blur-sm bg-white/80 shadow-lg cursor-pointer group block"
             >
@@ -48,10 +69,11 @@ export default function GiftRegistry() {
               </div>
             </motion.a>
 
+            {/* Gift Envelope Card */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.6, delay: 0.3 }}
+              transition={{ duration: 0.6, delay: 0.4 }}
               whileHover={{ scale: 1.05 }}
               className="glass-morphism p-8 rounded-lg backdrop-blur-sm bg-white/80 shadow-lg cursor-pointer group"
             >
@@ -64,15 +86,14 @@ export default function GiftRegistry() {
             </motion.div>
           </div>
 
-          <motion.button
+          <motion.p
             initial={{ opacity: 0 }}
             animate={inView ? { opacity: 1 } : {}}
             transition={{ duration: 0.6, delay: 0.6 }}
-            className="mt-12 bg-wedding-black text-white py-4 px-8 rounded-lg magnetic-hover tracking-wider inline-flex items-center"
+            className="mt-12 text-wedding-gray text-sm"
           >
-            <FaGift className="mr-3" />
-            VER TODAS LAS OPCIONES
-          </motion.button>
+            Haz clic en cualquier tarjeta para visitar nuestra mesa de regalos
+          </motion.p>
         </motion.div>
       </div>
     </section>

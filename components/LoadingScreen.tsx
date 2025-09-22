@@ -16,7 +16,7 @@ export default function LoadingScreen() {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <h1 className="font-playfair text-6xl md:text-8xl text-wedding-black loading-animation">
-            S & V
+            V & S
           </h1>
         </motion.div>
         <motion.div

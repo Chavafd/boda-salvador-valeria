@@ -66,7 +66,7 @@ export default function RSVP() {
               frameBorder="0" 
               marginHeight={0} 
               marginWidth={0} 
-              title="Formulario de Confirmación - Boda S & V"
+              title="Formulario de Confirmación - Boda V & S"
               className="rounded-lg"
             />
           </div>

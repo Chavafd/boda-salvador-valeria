@@ -10,8 +10,7 @@
   }
 
   html {
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
+    /* Removed scroll-behavior and scroll-snap-type for normal scrolling */
   }
 
   body {

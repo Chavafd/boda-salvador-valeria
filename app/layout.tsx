@@ -13,11 +13,11 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-  title: 'S & V | Salvador & Valeria - 4 de Enero, 2026',
-  description: 'Únete a nosotros en la celebración de nuestro amor. Salvador & Valeria - 4 de Enero, 2026',
+  title: 'V & S | Valeria & Salvador - 4 de Enero, 2026',
+  description: 'Únete a nosotros en la celebración de nuestro amor. Valeria & Salvador - 4 de Enero, 2026',
   keywords: 'boda, wedding, Salvador, Valeria, enero 2026',
   openGraph: {
-    title: 'Salvador & Valeria - Nuestra Boda',
+    title: 'Valeria & Salvador - Nuestra Boda',
     description: 'Únete a nosotros en la celebración de nuestro amor - 4 de Enero, 2026',
     images: ['/og-image.jpg'],
     type: 'website',

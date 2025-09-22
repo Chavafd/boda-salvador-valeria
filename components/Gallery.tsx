@@ -12,13 +12,23 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/effect-fade'
 
+// INSTRUCTIONS TO ADD YOUR PHOTOS:
+// 1. Add your photos to the folder: public/gallery/
+// 2. Name your photos with simple names like: photo1.jpg, photo2.jpg, etc.
+// 3. Update this array with your photo filenames
+// 4. The photos will automatically display in your gallery!
+
 const galleryImages = [
-  { id: 1, src: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=800', alt: 'Momento romántico' },
-  { id: 2, src: 'https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=800', alt: 'Abrazo de amor' },
-  { id: 3, src: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800', alt: 'Anillos de boda' },
-  { id: 4, src: 'https://images.unsplash.com/photo-1529636798458-92182e662485?w=800', alt: 'Preparativos' },
-  { id: 5, src: 'https://images.unsplash.com/photo-1460978812857-470ed1c77af0?w=800', alt: 'Flores de boda' },
-  { id: 6, src: 'https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=800', alt: 'Detalles elegantes' },
+  // Example photos - Replace these with your actual photos
+  { id: 1, src: '/gallery/photo1.jpg', alt: 'Nuestra primera cita' },
+  { id: 2, src: '/gallery/photo2.jpg', alt: 'Viaje a la playa' },
+  { id: 3, src: '/gallery/photo3.jpg', alt: 'Momento especial' },
+  { id: 4, src: '/gallery/photo4.jpg', alt: 'Celebrando juntos' },
+  { id: 5, src: '/gallery/photo5.jpg', alt: 'Nuestra propuesta' },
+  { id: 6, src: '/gallery/photo6.jpg', alt: 'Preparativos de boda' },
+  
+  // Add more photos here following the same format:
+  // { id: 7, src: '/gallery/photo7.jpg', alt: 'Description' },
 ]
 
 export default function Gallery() {

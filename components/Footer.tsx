@@ -80,7 +80,7 @@ export default function Footer() {
               Hecho con <FaHeart className="text-red-500 mx-2" /> para nuestro día especial
             </p>
             <p className="text-gray-600 text-xs mt-2">
-              © 2026 S & V. Todos los derechos reservados jakaaskaj no se crean.
+              © 2026 V & S. Todos los derechos reservados jakaaskaj no se crean.
             </p>
           </motion.div>
         </div>

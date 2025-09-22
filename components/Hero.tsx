@@ -50,13 +50,13 @@ export default function Hero() {
           </h2>
           
           <h1 className="font-playfair text-6xl md:text-8xl lg:text-9xl text-wedding-black mb-4">
-            Salvador
+            Valeria
           </h1>
           
           <div className="text-3xl md:text-4xl text-wedding-gray font-light my-4">&</div>
           
           <h1 className="font-playfair text-6xl md:text-8xl lg:text-9xl text-wedding-black mb-12">
-            Valeria
+            Salvador
           </h1>
           
           <div className="text-wedding-gray tracking-widest mb-16">
