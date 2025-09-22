@@ -7,9 +7,11 @@ const nextConfig = {
     domains: ['images.unsplash.com'],
     unoptimized: true,
   },
-  // Temporarily disable basePath to fix GitHub Pages asset issues
-  // basePath: process.env.NODE_ENV === 'production' ? '/boda-salvador-valeria' : '',
-  // assetPrefix: process.env.NODE_ENV === 'production' ? '/boda-salvador-valeria' : '',
+  // GitHub Pages project sites work better without basePath for static exports
+  // The deployment will handle the subdirectory automatically
+  // basePath: '/boda-salvador-valeria',
+  // assetPrefix: '/boda-salvador-valeria/',
+  trailingSlash: true,
 }
 
 module.exports = nextConfig
