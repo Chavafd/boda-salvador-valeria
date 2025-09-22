@@ -19,16 +19,16 @@ import 'swiper/css/effect-fade'
 // 4. The photos will automatically display in your gallery!
 
 const galleryImages = [
-  // Example photos - Replace these with your actual photos
-  { id: 1, src: '/gallery/photo1.jpg', alt: 'Nuestra primera cita' },
-  { id: 2, src: '/gallery/photo2.jpg', alt: 'Viaje a la playa' },
-  { id: 3, src: '/gallery/photo3.jpg', alt: 'Momento especial' },
-  { id: 4, src: '/gallery/photo4.jpg', alt: 'Celebrando juntos' },
-  { id: 5, src: '/gallery/photo5.jpg', alt: 'Nuestra propuesta' },
-  { id: 6, src: '/gallery/photo6.jpg', alt: 'Preparativos de boda' },
-  
-  // Add more photos here following the same format:
-  // { id: 7, src: '/gallery/photo7.jpg', alt: 'Description' },
+  { id: 1, src: '/gallery/photo1.jpg', alt: 'Nuestro amor en fotografía' },
+  { id: 2, src: '/gallery/photo2.jpg', alt: 'Momentos especiales juntos' },
+  { id: 3, src: '/gallery/photo3.jpg', alt: 'Sonrisas y felicidad' },
+  { id: 4, src: '/gallery/photo4.jpg', alt: 'Recuerdos inolvidables' },
+  { id: 5, src: '/gallery/photo5.jpg', alt: 'Aventuras compartidas' },
+  { id: 6, src: '/gallery/photo6.jpg', alt: 'Celebrando nuestro amor' },
+  { id: 7, src: '/gallery/photo7.jpg', alt: 'Instantes de felicidad' },
+  { id: 8, src: '/gallery/photo8.jpg', alt: 'Juntos para siempre' },
+  { id: 9, src: '/gallery/photo9.jpg', alt: 'Nuestra historia de amor' },
+  { id: 10, src: '/gallery/photo10.jpg', alt: 'El inicio de nuestra vida juntos' },
 ]
 
 export default function Gallery() {
