@@ -6,16 +6,16 @@ import { FaGlassCheers, FaMicrophone, FaUtensils, FaMusic, FaHeart } from 'react
 
 const timelineEvents = [
   {
-    time: '5:00 – 6:00 PM',
-    title: 'Hora de Cóctel',
-    icon: FaGlassCheers,
-    description: 'Recepción de invitados, bebidas y aperitivos ligeros, música ambiental, libro de firmas y fotografías',
-  },
-  {
-    time: '6:00 – 6:45 PM',
+    time: '3:00 – 3:45 PM',
     title: 'Discurso de Bodas y Palabras',
     icon: FaMicrophone,
     description: 'Discurso de bodas y bendición, palabras de la pareja y familiares, brindis de apertura',
+  },
+  {
+    time: '5:30 – 6:30 PM',
+    title: 'Hora de Cóctel',
+    icon: FaGlassCheers,
+    description: 'Recepción de invitados, bebidas y aperitivos ligeros, música ambiental, libro de firmas y fotografías',
   },
   {
     time: '6:45 – 8:30 PM',
