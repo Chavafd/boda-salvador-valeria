@@ -9,6 +9,7 @@ const nextConfig = {
   },
   basePath: process.env.NODE_ENV === 'production' ? '/boda-salvador-valeria' : '',
   assetPrefix: process.env.NODE_ENV === 'production' ? '/boda-salvador-valeria' : '',
+  trailingSlash: true,
 }
 
 module.exports = nextConfig

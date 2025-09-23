@@ -27,8 +27,7 @@ const galleryImages = [
   { id: 6, src: '/gallery/photo6.jpg', alt: 'Celebrando nuestro amor' },
   { id: 7, src: '/gallery/photo7.jpg', alt: 'Instantes de felicidad' },
   { id: 8, src: '/gallery/photo8.jpg', alt: 'Juntos para siempre' },
-  { id: 9, src: '/gallery/photo9.jpg', alt: 'Nuestra historia de amor' },
-  { id: 10, src: '/gallery/photo10.jpg', alt: 'El inicio de nuestra vida juntos' },
+  { id: 9, src: '/gallery/photo10.jpg', alt: 'El inicio de nuestra vida juntos' },
 ]
 
 export default function Gallery() {
