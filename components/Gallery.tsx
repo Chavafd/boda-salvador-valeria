@@ -18,16 +18,19 @@ import 'swiper/css/effect-fade'
 // 3. Update this array with your photo filenames
 // 4. The photos will automatically display in your gallery!
 
+// Use basePath for production environment
+const basePath = process.env.NODE_ENV === 'production' ? '/boda-salvador-valeria' : '';
+
 const galleryImages = [
-  { id: 1, src: '/gallery/photo1.jpg', alt: 'Nuestro amor en fotografía' },
-  { id: 2, src: '/gallery/photo2.jpg', alt: 'Momentos especiales juntos' },
-  { id: 3, src: '/gallery/photo3.jpg', alt: 'Sonrisas y felicidad' },
-  { id: 4, src: '/gallery/photo4.jpg', alt: 'Recuerdos inolvidables' },
-  { id: 5, src: '/gallery/photo5.jpg', alt: 'Aventuras compartidas' },
-  { id: 6, src: '/gallery/photo6.jpg', alt: 'Celebrando nuestro amor' },
-  { id: 7, src: '/gallery/photo7.jpg', alt: 'Instantes de felicidad' },
-  { id: 8, src: '/gallery/photo8.jpg', alt: 'Juntos para siempre' },
-  { id: 9, src: '/gallery/photo10.jpg', alt: 'El inicio de nuestra vida juntos' },
+  { id: 1, src: `${basePath}/gallery/photo1.jpg`, alt: 'Nuestro amor en fotografía' },
+  { id: 2, src: `${basePath}/gallery/photo2.jpg`, alt: 'Momentos especiales juntos' },
+  { id: 3, src: `${basePath}/gallery/photo3.jpg`, alt: 'Sonrisas y felicidad' },
+  { id: 4, src: `${basePath}/gallery/photo4.jpg`, alt: 'Recuerdos inolvidables' },
+  { id: 5, src: `${basePath}/gallery/photo5.jpg`, alt: 'Aventuras compartidas' },
+  { id: 6, src: `${basePath}/gallery/photo6.jpg`, alt: 'Celebrando nuestro amor' },
+  { id: 7, src: `${basePath}/gallery/photo7.jpg`, alt: 'Instantes de felicidad' },
+  { id: 8, src: `${basePath}/gallery/photo8.jpg`, alt: 'Juntos para siempre' },
+  { id: 9, src: `${basePath}/gallery/photo10.jpg`, alt: 'El inicio de nuestra vida juntos' },
 ]
 
 export default function Gallery() {
