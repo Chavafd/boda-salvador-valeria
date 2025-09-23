@@ -18,19 +18,19 @@ const timelineEvents = [
     description: 'Recepción de invitados, bebidas y aperitivos ligeros, música ambiental, libro de firmas y fotografías',
   },
   {
-    time: '6:45 – 8:30 PM',
+    time: '6:30 – 8:00 PM',
     title: 'Cena',
     icon: FaUtensils,
     description: 'Servicio de tres tiempos, discursos especiales entre platillos, música ambiental',
   },
   {
-    time: '8:30 – 10:45 PM',
+    time: '8:00 – 11:00 PM',
     title: 'Baile y Celebración',
     icon: FaMusic,
     description: 'Primer baile, pista de baile abierta, servicio de bebidas ilimitadas, DJ con iluminación',
   },
   {
-    time: '10:45 – 11:00 PM',
+    time: '11:00 – 11:30 PM',
     title: 'Cierre',
     icon: FaHeart,
     description: 'Canción especial de cierre, mensaje de agradecimiento, despedida de invitados',
