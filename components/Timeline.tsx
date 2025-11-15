@@ -6,10 +6,10 @@ import { FaGlassCheers, FaMicrophone, FaUtensils, FaMusic, FaHeart } from 'react
 
 const timelineEvents = [
   {
-    time: '3:00 – 3:45 PM',
+    time: '2:00 – 5:00 PM',
     title: 'Discurso de Bodas y Palabras',
     icon: FaMicrophone,
-    description: 'Discurso de bodas y bendición, palabras de la pareja y familiares, brindis de apertura',
+    description: 'Discurso de bodas en el salón del reino',
   },
   {
     time: '5:30 – 6:30 PM',
