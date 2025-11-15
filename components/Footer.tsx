@@ -75,14 +75,7 @@ export default function Footer() {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.6 }}
             className="border-t border-gray-800 pt-8"
-          >
-            <p className="text-gray-500 text-sm flex items-center justify-center">
-              Hecho con <FaHeart className="text-red-500 mx-2" /> para nuestro día especial
-            </p>
-            <p className="text-gray-600 text-xs mt-2">
-              © 2026 V & S. Todos los derechos reservados jakaaskaj no se crean.
-            </p>
-          </motion.div>
+          />
         </div>
       </div>
     </footer>
