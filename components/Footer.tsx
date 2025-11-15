@@ -45,32 +45,6 @@ export default function Footer() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            className="flex justify-center space-x-6 mb-8"
-          >
-            <a
-              href="https://www.instagram.com/chavafdz_r"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-2xl hover:text-gray-300 transition-colors"
-              aria-label="Instagram"
-            >
-              <FaInstagram />
-            </a>
-            <a
-              href="https://wa.me/529841046650"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-2xl hover:text-gray-300 transition-colors"
-              aria-label="WhatsApp"
-            >
-              <FaWhatsapp />
-            </a>
-          </motion.div>
-
-          <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.6 }}
