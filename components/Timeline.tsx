@@ -27,7 +27,7 @@ const timelineEvents = [
     time: '8:00 – 11:00 PM',
     title: 'Baile y Celebración',
     icon: FaMusic,
-    description: 'Primer baile, pista de baile abierta, servicio de bebidas ilimitadas, DJ con iluminación',
+    description: 'Primer baile, pista de baile abierta, DJ con iluminación',
   },
   {
     time: '11:00 – 11:30 PM',
