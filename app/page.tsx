@@ -5,6 +5,7 @@ import LoadingScreen from '@/components/LoadingScreen'
 import Hero from '@/components/Hero'
 import Venue from '@/components/Venue'
 import Timeline from '@/components/Timeline'
+import DressCode from '@/components/DressCode'
 import GiftRegistry from '@/components/GiftRegistry'
 import RSVP from '@/components/RSVP'
 import Footer from '@/components/Footer'
@@ -43,6 +44,7 @@ export default function Home() {
         <Hero />
         <Venue />
         <Timeline />
+        <DressCode />
         <GiftRegistry />
         <RSVP />
         <Footer />
