@@ -44,7 +44,7 @@ export default function Venue() {
                   <FaClock className="text-wedding-black mr-4 text-xl mt-1" />
                   <div>
                     <p className="font-semibold">Horario</p>
-                    <p className="text-wedding-gray">2:00 PM a 4:00 PM</p>
+                    <p className="text-wedding-gray">2:00 PM a 5:00 PM</p>
                   </div>
                 </div>
 
@@ -102,7 +102,7 @@ export default function Venue() {
             transition={{ duration: 0.8, delay: 0.3 }}
           >
             <div className="glass-morphism p-8 rounded-lg backdrop-blur-sm bg-white/80 shadow-lg">
-              <h3 className="font-playfair text-3xl mb-6">Ceremonia y Recepción</h3>
+              <h3 className="font-playfair text-3xl mb-6">Recepción</h3>
               
               <div className="space-y-4">
                 <div className="flex items-center">
@@ -117,7 +117,7 @@ export default function Venue() {
                   <FaClock className="text-wedding-black mr-4 text-xl" />
                   <div>
                     <p className="font-semibold">Hora</p>
-                    <p className="text-wedding-gray">5:30 PM - 11:00 PM</p>
+                    <p className="text-wedding-gray">5:30 PM - 11:30 PM</p>
                   </div>
                 </div>
                 
