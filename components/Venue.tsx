@@ -117,7 +117,7 @@ export default function Venue() {
                   <FaClock className="text-wedding-black mr-4 text-xl" />
                   <div>
                     <p className="font-semibold">Hora</p>
-                    <p className="text-wedding-gray">5:00 PM - 11:30 PM</p>
+                    <p className="text-wedding-gray">5:00 PM - 11:00 PM</p>
                   </div>
                 </div>
                 

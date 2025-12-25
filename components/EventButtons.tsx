@@ -17,7 +17,7 @@ DTSTAMP:${new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '')}
 DTSTART:20260104T170000
 DTEND:20260104T230000
 SUMMARY:Boda Salvador & Valeria
-DESCRIPTION:¡Nos casamos! Acompáñanos en nuestro día especial.\\n\\nCronograma:\\n5:00 PM - Cóctel\\n6:00 PM - Discurso de Bodas\\n6:45 PM - Cena\\n8:30 PM - Baile y Celebración\\n10:45 PM - Cierre
+DESCRIPTION:¡Nos casamos! Acompáñanos en nuestro día especial.\n\nCronograma:\n5:00 PM - Cóctel de Bienvenida\n5:15 PM - Ingreso de Invitados\n5:30 PM - Entrada de Novios\n5:35 PM - Banquete\n7:35 PM - Pista de Baile\n11:00 PM - Cierre
 LOCATION:Quinta los Agapantos
 BEGIN:VALARM
 TRIGGER:-P1D
