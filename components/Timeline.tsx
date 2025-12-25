@@ -12,7 +12,7 @@ const timelineEvents = [
     description: 'Discurso de bodas en el salón del reino',
   },
   {
-    time: '5:30 – 6:30 PM',
+    time: '5:00 – 6:30 PM',
     title: 'Hora de Cóctel',
     icon: FaGlassCheers,
     description: 'Recepción de invitados, bebidas y aperitivos ligeros, música ambiental, libro de firmas y fotografías',

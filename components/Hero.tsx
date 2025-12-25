@@ -61,7 +61,7 @@ export default function Hero() {
           
           <div className="text-wedding-gray tracking-widest mb-16">
             <p className="text-lg md:text-xl mb-2">4 DE ENERO DE 2026</p>
-            <p className="text-sm md:text-base">DOMINGO • 5:30 PM</p>
+            <p className="text-sm md:text-base">DOMINGO • 5:00 PM</p>
           </div>
         </motion.div>
 

@@ -14,10 +14,10 @@ PRODID:-//S&V Wedding//Event//ES
 BEGIN:VEVENT
 UID:${Date.now()}@bodasyv.com
 DTSTAMP:${new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '')}
-DTSTART:20260104T173000
+DTSTART:20260104T170000
 DTEND:20260104T230000
 SUMMARY:Boda Salvador & Valeria
-DESCRIPTION:¡Nos casamos! Acompáñanos en nuestro día especial.\\n\\nCronograma:\\n5:30 PM - Cóctel\\n6:00 PM - Discurso de Bodas\\n6:45 PM - Cena\\n8:30 PM - Baile y Celebración\\n10:45 PM - Cierre
+DESCRIPTION:¡Nos casamos! Acompáñanos en nuestro día especial.\\n\\nCronograma:\\n5:00 PM - Cóctel\\n6:00 PM - Discurso de Bodas\\n6:45 PM - Cena\\n8:30 PM - Baile y Celebración\\n10:45 PM - Cierre
 LOCATION:Quinta los Agapantos
 BEGIN:VALARM
 TRIGGER:-P1D
